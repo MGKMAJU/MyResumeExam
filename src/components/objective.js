@@ -6,7 +6,7 @@ export default class App extends Component{
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Objective</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
+        <Text style={styles.instructions}>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</Text>
         <Text style={styles.instructions} style={styles.welcome} onPress={() => Actions.Experience()}>Experience</Text>
         <Text style={styles.instructions} style={styles.welcome} onPress={() => Actions.Education()}>Education</Text>
       </View>
@@ -20,15 +20,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    color:'#000',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color:'#000000',
+
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+     
     marginBottom: 5,
   },
 });

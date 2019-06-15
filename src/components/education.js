@@ -7,7 +7,10 @@ export default class App extends Component{
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Education</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
+        <Text style={styles.instructions}>- MCS</Text>
+        <Text style={styles.instructions}>Masters in Computer Science MCS  (Present)</Text>
+        <Text style={styles.instructions}>- BCS</Text>
+        <Text style={styles.instructions}>Becholers in Computer Science BCS  (2018)</Text>
         <Text style={styles.instructions}></Text>
       </View>
     );
@@ -25,10 +28,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color:'#000000'
+
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    
     marginBottom: 5,
   },
 });

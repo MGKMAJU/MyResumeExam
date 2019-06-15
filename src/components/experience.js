@@ -7,7 +7,12 @@ export default class App extends Component{
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Experience</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
+        <Text style={styles.instructions}>- Software Engineer</Text>
+        <Text style={styles.instructions}>Octraves Technology  (Aug - Present)</Text>
+        <Text style={styles.instructions}>- Jr. Software Engineer</Text>
+        <Text style={styles.instructions}>First Solutions  (Feb - Aug)</Text>
+        <Text style={styles.instructions}>- Internee</Text>
+        <Text style={styles.instructions}>WebTechnoCity  (3 Months)</Text>
         <Text style={styles.instructions}></Text>
       </View>
     );
@@ -20,15 +25,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    color:'#000000'
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color:'#000000'
+    
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
     marginBottom: 5,
   },
 });
